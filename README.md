@@ -1,1 +1,1 @@
-# BOS-Logreader
+BOS+ Readable logs
