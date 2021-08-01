@@ -1,1 +1,1 @@
-BOS+ Readable logs
+*BOS+ Readable logs
