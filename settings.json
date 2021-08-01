@@ -1,0 +1,54 @@
+// paste the code below after the last },
+
+    "logFileHighlighter.customPatterns": [
+    {
+        "pattern": "Raw config",
+        "background": "#ff00ea",
+        "foreground": "#ffffff"
+    },
+    {
+        "pattern": "Monitor: Automatic fan control:",
+        "foreground": "#999"
+    },
+     {
+        "pattern": "Monitor: fan override activated | On",
+        "foreground": "#999"
+    },
+    {
+        "pattern": " WARN ",
+        "background": "#ff7b00",
+        "foreground": "#ffffff"
+    },
+    {
+        "pattern": "Failed to connect to ",
+        "background": "#ffac3f",
+        "foreground": "#000000"
+    },
+    {
+        "pattern": "TX fifo on hashboard",
+        "background": "#ffa600",
+        "foreground": "#fff"
+    },
+    {
+        "pattern": " ERRO ",
+        "background": "#ff0000",
+        "foreground": "#fff"
+    },
+    {
+        "pattern": "Hashchain refused to start",
+        "background": "#ff9e9e",
+        "foreground": "#ff0000"
+    },
+    {
+        "pattern": "CHAIN/\\w+: Init failed: no chips detected on the current chain",
+        "background": "#ff9e9e",
+        "foreground": "#bb0000"
+    },
+    {
+        "pattern": "CHAIN/\\w+: Start failed: NoChipsDetected",
+        "background": "#ff9e9e",
+        "foreground": "#bb0000"
+    }
+]
+
+// }
