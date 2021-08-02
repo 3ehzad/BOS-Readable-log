@@ -1,8 +1,8 @@
 
 # BOS+ Readable Logs
 
-![before](https://github.com/3ehzad/BOS-Readable-log/blob/main/image.jpg?raw=true)
-![after](https://github.com/3ehzad/BOS-Readable-log/blob/main/image.jpg?raw=true)
+![before](https://github.com/3ehzad/BOS-Readable-log/blob/main/before.jpg?raw=true)
+![after](https://github.com/3ehzad/BOS-Readable-log/blob/main/after.jpg?raw=true)
 
 
 ### How to setup:
