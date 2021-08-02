@@ -25,7 +25,7 @@
         },
         {
             // TODO: Needs to fix regex pattern
-            "pattern": "Received configuration (BosMgmtState[\\w+]) is the same as current.",
+            "pattern": "Received configuration \\(BosMgmtState\\[\\w+]\\) is the same as current.",
             "background": "#c900b8",
             "foreground": "#ffffff"
         },
@@ -33,7 +33,12 @@
         {
             "pattern": "Monitor task declared miner shutdown: Shutdown: temperature \\w+°C is above DANGEROUS",
             "background": "#ff9e9e",
-            "foreground": "#bb0000"
+            "foreground": "#700000"
+        },
+        {
+            "pattern": "Shutdown",
+            "background": "#ff0000",
+            "foreground": "#ffd000"
         },
         {
             "pattern": "CHAIN/\\w+: Init failed: no chips detected on the current chain",
@@ -85,6 +90,16 @@
             "background": "#ff9e9e",
             "foreground": "#bb0000"
         },
+        {
+            "pattern": "Chain \\w+ start failed: I2C error",
+            "background": "#ff9e9e",
+            "foreground": "#bb0000"
+        },
+        {
+            "pattern": "No tries left",
+            "background": "#ff6600",
+            "foreground": "#ffffff"
+        },
         // WARN flags
         {
             "pattern": "TX fifo on hashboard \\w+ is empty",
@@ -102,9 +117,19 @@
             "foreground": "#aa3e00"
         },
         {
+            "pattern": "I2C transaction on hashboard \\w+ failed, retrying...",
+            "background": "#ffb67a",
+            "foreground": "#aa3e00"
+        },
+        {
             "pattern": "AsyncI2c reply send failed - remote side may have ended",
             "background": "#ffb67a",
             "foreground": "#aa3e00"
+        },
+        {
+            "pattern": "Generating default config, parsing failed: ParsingError\\(\"missing field `format`\"\\)",
+            "background": "#006eff",
+            "foreground": "#ffffff"
         },
         // INFO flags
         {
