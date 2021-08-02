@@ -1,7 +1,19 @@
 //{
     // Start : Copy and paste the section below
-
     "logFileHighlighter.customPatterns": [
+        // Fade unused logs
+        {
+            "pattern": "\\w+ daemon.err",
+            "foreground": "#838383"
+        },
+        {
+            "pattern": "\\w+ daemon.info",
+            "foreground": "#838383"
+        },
+        {
+            "pattern": "bosminer\\[\\w+]: \\w+ \\w+",
+            "foreground": "#838383"
+        },
         // Main flags
         {
             "pattern": " ERRO ",
@@ -38,7 +50,7 @@
         {
             "pattern": "Shutdown",
             "background": "#ff0000",
-            "foreground": "#ffd000"
+            "foreground": "#ffd102"
         },
         {
             "pattern": "CHAIN/\\w+: Init failed: no chips detected on the current chain",
@@ -131,6 +143,11 @@
             "background": "#006eff",
             "foreground": "#ffffff"
         },
+        {
+            "pattern": "Failed to load autotuner registry: No such file or directory",
+            "background": "#006eff",
+            "foreground": "#ffffff"
+        },
         // INFO flags
         {
             "pattern": "Preheat: waiting for target temperature: \\w+",
@@ -147,7 +164,6 @@
             "background": "#ffd000",
             "foreground": "#584b00"
         }
-        
         
     ]
 // End: copy & past
