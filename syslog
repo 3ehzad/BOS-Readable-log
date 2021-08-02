@@ -1,0 +1,149 @@
+Sun Aug  1 07:27:06 2021 daemon.err bosminer[1542]: Aug 01 07:27:06.597 WARN Generating default config, parsing failed: ParsingError("missing field `format`")
+Sun Aug  1 07:27:06 2021 daemon.err bosminer[1542]: Aug 01 07:27:06.741 INFO BOS management state validation result: Reading BOS management state
+Sun Aug  1 07:27:06 2021 daemon.err bosminer[1542]: Aug 01 07:27:06.777 WARN Failed to load autotuner registry: No such file or directory (os error 2), using empty autotuner registry
+Sun Aug  1 07:27:06 2021 daemon.err bosminer[1542]: Aug 01 07:27:06.843 INFO Starting BOSminer (bosminer-plus-am1-s9 0.7.0-52331c5f)...
+Sun Aug  1 07:27:06 2021 daemon.err bosminer[1542]: Aug 01 07:27:06.843 INFO Configured 4 midstates
+Sun Aug  1 07:27:06 2021 daemon.err bosminer[1542]: Aug 01 07:27:06.907 INFO Resolved monitor backend_config: Config { fan_config: Some(FanControlConfig { mode: TargetTemperature(89.0), min_fans: 1, min_fan_rpm: 0 }), temp_config: Some(TempControlConfig { dangerous_temp: 110.0, hot_temp: 100.0 }) }
+Sun Aug  1 07:27:06 2021 daemon.err bosminer[1542]: Aug 01 07:27:06.908 INFO FAN autoconfig: [660 1.5K 0 0]
+Sun Aug  1 07:27:06 2021 daemon.err bosminer[1542]: Aug 01 07:27:06.908 INFO Monitor: Fans off: nothing is running |  | 660 1.5K 0 0 fan_0%
+Sun Aug  1 07:27:06 2021 daemon.err bosminer[1542]: Aug 01 07:27:06.910 INFO Initializing miner, enabled_chains=[6, 7, 8], midstate_count=4
+Sun Aug  1 07:27:06 2021 daemon.err bosminer[1542]: Aug 01 07:27:06.914 INFO Registering hashboard 6 with monitor
+Sun Aug  1 07:27:06 2021 daemon.err bosminer[1542]: Aug 01 07:27:06.914 INFO API started for hashchain 6 on address 0.0.0.0:4086
+Sun Aug  1 07:27:06 2021 daemon.err bosminer[1542]: Aug 01 07:27:06.915 INFO API started for hashchain 7 on address 0.0.0.0:4087
+Sun Aug  1 07:27:06 2021 daemon.err bosminer[1542]: Aug 01 07:27:06.915 INFO Registering hashboard 7 with monitor
+Sun Aug  1 07:27:06 2021 daemon.err bosminer[1542]: Aug 01 07:27:06.921 INFO Hashboard 7: bm13xx 1.0.2 for Antminer S9 or higher built on 2020-12-04 14:30:01 UTC
+Sun Aug  1 07:27:06 2021 daemon.err bosminer[1542]: Aug 01 07:27:06.921 INFO Hashboard 6: bm13xx 1.0.2 for Antminer S9 or higher built on 2020-12-04 14:30:01 UTC
+Sun Aug  1 07:27:06 2021 daemon.err bosminer[1542]: Aug 01 07:27:06.921 INFO Hashboard IP core initialized
+Sun Aug  1 07:27:06 2021 daemon.err bosminer[1542]: Aug 01 07:27:06.921 INFO Voltage controller reset
+Sun Aug  1 07:27:06 2021 daemon.err bosminer[1542]: Aug 01 07:27:06.921 INFO Kicking fans up
+Mon Jul 26 05:59:38 2021 daemon.err bosminer[21718]: Jul 26 05:59:38.93 INFO Error from extension channel message handling: Missing bos tunnel handler
+Sun Aug  1 07:27:06 2021 daemon.err bosminer[1542]: Aug 01 07:27:06.921 INFO API started for hashchain 8 on address 0.0.0.0:4088
+Sun Aug  1 07:27:06 2021 daemon.err bosminer[1542]: Aug 01 07:27:06.921 INFO Registering hashboard 8 with monitor
+Sun Aug  1 07:27:06 2021 daemon.err bosminer[1542]: Aug 01 07:27:06.924 INFO Hashboard IP core initialized
+Sun Aug  1 07:27:06 2021 daemon.err bosminer[1542]: Aug 01 07:27:06.927 INFO Hashboard 8: bm13xx 1.0.2 for Antminer S9 or higher built on 2020-12-04 14:30:01 UTC
+Sun Aug  1 07:27:06 2021 daemon.err bosminer[1542]: Aug 01 07:27:06.927 INFO Voltage controller reset
+Sun Aug  1 07:27:06 2021 daemon.err bosminer[1542]: Aug 01 07:27:06.991 INFO Hashboard IP core initialized
+Sun Aug  1 07:27:06 2021 daemon.err bosminer[1542]: Aug 01 07:27:06.993 INFO Voltage controller reset
+Sun Aug  1 07:27:11 2021 daemon.err bosminer[1542]: Aug 01 07:27:11.999 INFO Monitor: Fans full speed: unknown temperature | Starting Starting Starting | 5.7K 5.5K 0 0 fan_100%
+Sun Aug  1 07:27:12 2021 daemon.err bosminer[1542]: Aug 01 07:27:12.291 INFO Voltage controller application started
+Sun Aug  1 07:27:12 2021 daemon.err bosminer[1542]: Aug 01 07:27:12.310 INFO Voltage controller firmware version 0x03
+Sun Aug  1 07:27:12 2021 daemon.err bosminer[1542]: Aug 01 07:27:12.310 INFO Setting voltage to 9.402579 (was: None)
+Sun Aug  1 07:27:12 2021 daemon.err bosminer[1542]: Aug 01 07:27:12.320 INFO Voltage controller application started
+Sun Aug  1 07:27:37 2021 daemon.err bosminer[1542]: Aug 01 07:27:37.488 INFO Monitor: Automatic fan control: input 72°C target 89°C | On(51°C,72°C) On(47°C,67°C) On(46°C,63°C) | 840 1.5K 0 0 fan_1% R1%
+Sun Aug  1 07:27:42 2021 daemon.err bosminer[1542]: Aug 01 07:27:42.721 INFO Monitor: Automatic fan control: input 76°C target 89°C | On(54°C,76°C) On(50°C,69°C) On(48°C,66°C) | 720 1.5K 0 0 fan_1% R1%
+Sun Aug  1 07:27:47 2021 daemon.err bosminer[1542]: Aug 01 07:27:47.950 INFO Monitor: Automatic fan control: input 78°C target 89°C | On(56°C,78°C) On(53°C,72°C) On(51°C,69°C) | 780 1.5K 0 0 fan_1% R1%
+Sun Aug  1 07:27:53 2021 daemon.err bosminer[1542]: Aug 01 07:27:53.181 INFO Monitor: Automatic fan control: input 82°C target 89°C | On(59°C,82°C) On(56°C,76°C) On(54°C,72°C) | 780 1.5K 0 0 fan_1% R1%
+Sun Aug  1 07:27:58 2021 daemon.err bosminer[1542]: Aug 01 07:27:58.416 INFO Monitor: Automatic fan control: input 85°C target 89°C | On(62°C,85°C) On(59°C,79°C) On(57°C,75°C) | 720 1.5K 0 0 fan_1% R1%
+Fri Jul  2 22:11:04 2021 daemon.err bosminer[6424]: Jul 02 22:11:04.699 ERRO Monitor task declared miner shutdown: Shutdown: temperature 95°C is above DANGEROUS
+Sun Aug  1 07:27:06 2021 daemon.err bosminer[1542]: Aug 01 07:27:06.921 INFO Kicking fans up
+Sun Aug  1 07:27:06 2021 daemon.err bosminer[1542]: Aug 01 07:27:06.993 INFO Voltage controller reset
+Sun Aug  1 07:27:11 2021 daemon.err bosminer[1542]: Aug 01 07:27:11.999 INFO Monitor: Fans full speed: unknown temperature | Starting Starting Starting | 5.7K 5.5K 0 0 fan_100%
+Sun Aug  1 07:27:12 2021 daemon.err bosminer[1542]: Aug 01 07:27:12.291 INFO Voltage controller application started
+Sun Aug  1 07:27:12 2021 daemon.err bosminer[1542]: Aug 01 07:27:12.310 INFO Voltage controller firmware version 0x03
+Sun Aug  1 07:27:12 2021 daemon.err bosminer[1542]: Aug 01 07:27:12.310 INFO Setting voltage to 9.402579 (was: None)
+Sun Aug  1 07:27:12 2021 daemon.err bosminer[1542]: Aug 01 07:27:12.320 INFO Voltage controller application started
+Fri Feb 19 15:54:42 2021 daemon.err bosminer[1990]: Feb 19 15:54:42.575 ERRO Sensor hb3.14: read failed: I2C error: general error Hashchip: no response for GetStatusCmd(reg=0x1c) from chip One(14)
+Sun Aug  1 07:27:27 2021 daemon.err bosminer[1542]: Aug 01 07:27:27.024 INFO Monitor: Automatic fan control: input 70°C target 89°C | On(48°C,70°C) On(44°C,63°C) On(42°C,60°C) | 4.1K 4.3K 0 0 fan_31% R22%
+Sun Aug  1 07:27:32 2021 daemon.err bosminer[1542]: Aug 01 07:27:32.257 INFO Monitor: Automatic fan control: input 70°C target 89°C | On(49°C,70°C) On(44°C,64°C) On(43°C,60°C) | 1.1K 1.9K 0 0 fan_1% R1%
+Sun Aug  1 07:27:37 2021 daemon.err bosminer[1542]: Aug 01 07:27:37.488 INFO Monitor: Automatic fan control: input 72°C target 89°C | On(51°C,72°C) On(47°C,67°C) On(46°C,63°C) | 840 1.5K 0 0 fan_1% R1%
+Sun Aug  1 07:27:42 2021 daemon.err bosminer[1542]: Aug 01 07:27:42.721 INFO Monitor: Automatic fan control: input 76°C target 89°C | On(54°C,76°C) On(50°C,69°C) On(48°C,66°C) | 720 1.5K 0 0 fan_1% R1%
+Sun Aug  1 07:27:47 2021 daemon.err bosminer[1542]: Aug 01 07:27:47.950 INFO Monitor: Automatic fan control: input 78°C target 89°C | On(56°C,78°C) On(53°C,72°C) On(51°C,69°C) | 780 1.5K 0 0 fan_1% R1%
+Sun Aug  1 07:27:53 2021 daemon.err bosminer[1542]: Aug 01 07:27:53.181 INFO Monitor: Automatic fan control: input 82°C target 89°C | On(59°C,82°C) On(56°C,76°C) On(54°C,72°C) | 780 1.5K 0 0 fan_1% R1%
+Sun Aug  1 07:27:58 2021 daemon.err bosminer[1542]: Aug 01 07:27:58.416 INFO Monitor: Automatic fan control: input 85°C target 89°C | On(62°C,85°C) On(59°C,79°C) On(57°C,75°C) | 720 1.5K 0 0 fan_1% R1%
+Sun Aug  1 07:28:03 2021 daemon.err bosminer[1542]: Aug 01 07:28:03.648 INFO Monitor: Automatic fan control: input 88°C target 89°C | On(65°C,88°C) On(62°C,82°C) On(60°C,76°C) | 720 1.5K 0 0 fan_1% R1%
+Sun Aug  1 07:28:08 2021 daemon.err bosminer[1542]: Aug 01 07:28:08.877 INFO Monitor: Automatic fan control: input 90°C target 89°C | On(68°C,90°C) On(64°C,85°C) On(62°C,80°C) | 1.1K 2.0K 0 0 fan_8% t1%
+Sun Aug  1 07:28:14 2021 daemon.err bosminer[1542]: Aug 01 07:28:14.107 INFO Monitor: Automatic fan control: input 90°C target 89°C | On(70°C,90°C) On(67°C,88°C) On(65°C,81°C) | 1.3K 2.0K 0 0 fan_11% t1%
+Fri Feb 19 15:55:27 2021 daemon.err bosminer[1990]: Feb 19 15:55:27.463 ERRO Sensor hb3.14: read failed: I2C error: general error I2C controller keeps reading wrong address/register
+Sun Aug  1 07:27:27 2021 daemon.err bosminer[1542]: Aug 01 07:27:27.024 INFO Monitor: Automatic fan control: input 70°C target 89°C | On(48°C,70°C) On(44°C,63°C) On(42°C,60°C) | 4.1K 4.3K 0 0 fan_31% R22%
+Sun Aug  1 07:27:32 2021 daemon.err bosminer[1542]: Aug 01 07:27:32.257 INFO Monitor: Automatic fan control: input 70°C target 89°C | On(49°C,70°C) On(44°C,64°C) On(43°C,60°C) | 1.1K 1.9K 0 0 fan_1% R1%
+Mon Mar  1 16:34:02 2021 daemon.err bosminer[1567]: Mar 01 16:34:02.384 ERRO CHAIN/1: Init failed: expected voltage 17.50 V but measured 16.12 V
+Sun Aug  1 07:27:27 2021 daemon.err bosminer[1542]: Aug 01 07:27:27.024 INFO Monitor: Automatic fan control: input 70°C target 89°C | On(48°C,70°C) On(44°C,63°C) On(42°C,60°C) | 4.1K 4.3K 0 0 fan_31% R22%
+Sun Aug  1 07:27:32 2021 daemon.err bosminer[1542]: Aug 01 07:27:32.257 INFO Monitor: Automatic fan control: input 70°C target 89°C | On(49°C,70°C) On(44°C,64°C) On(43°C,60°C) | 1.1K 1.9K 0 0 fan_1% R1%
+Sun Aug  1 07:27:37 2021 daemon.err bosminer[1542]: Aug 01 07:27:37.488 INFO Monitor: Automatic fan control: input 72°C target 89°C | On(51°C,72°C) On(47°C,67°C) On(46°C,63°C) | 840 1.5K 0 0 fan_1% R1%
+Sun Aug  1 07:27:42 2021 daemon.err bosminer[1542]: Aug 01 07:27:42.721 INFO Monitor: Automatic fan control: input 76°C target 89°C | On(54°C,76°C) On(50°C,69°C) On(48°C,66°C) | 720 1.5K 0 0 fan_1% R1%
+Sun Aug  1 07:27:47 2021 daemon.err bosminer[1542]: Aug 01 07:27:47.950 INFO Monitor: Automatic fan control: input 78°C target 89°C | On(56°C,78°C) On(53°C,72°C) On(51°C,69°C) | 780 1.5K 0 0 fan_1% R1%
+Sun Aug  1 07:27:53 2021 daemon.err bosminer[1542]: Aug 01 07:27:53.181 INFO Monitor: Automatic fan control: input 82°C target 89°C | On(59°C,82°C) On(56°C,76°C) On(54°C,72°C) | 780 1.5K 0 0 fan_1% R1%
+Sun Aug  1 07:27:58 2021 daemon.err bosminer[1542]: Aug 01 07:27:58.416 INFO Monitor: Automatic fan control: input 85°C target 89°C | On(62°C,85°C) On(59°C,79°C) On(57°C,75°C) | 720 1.5K 0 0 fan_1% R1%
+Sun Aug  1 07:28:03 2021 daemon.err bosminer[1542]: Aug 01 07:28:03.648 INFO Monitor: Automatic fan control: input 88°C target 89°C | On(65°C,88°C) On(62°C,82°C) On(60°C,76°C) | 720 1.5K 0 0 fan_1% R1%
+Sun Aug  1 07:28:08 2021 daemon.err bosminer[1542]: Aug 01 07:28:08.877 INFO Monitor: Automatic fan control: input 90°C target 89°C | On(68°C,90°C) On(64°C,85°C) On(62°C,80°C) | 1.1K 2.0K 0 0 fan_8% t1%
+Sun Aug  1 07:28:14 2021 daemon.err bosminer[1542]: Aug 01 07:28:14.107 INFO Monitor: Automatic fan control: input 90°C target 89°C | On(70°C,90°C) On(67°C,88°C) On(65°C,81°C) | 1.3K 2.0K 0 0 fan_11% t1%
+Mon Mar  1 16:34:04 2021 daemon.err bosminer[1567]: Mar 01 16:34:04.443 ERRO CHAIN/1: Start failed: Power(UnexpectedVoltage(Voltage(17.5), Voltage(16.115736)))
+Sun Aug  1 07:27:27 2021 daemon.err bosminer[1542]: Aug 01 07:27:27.024 INFO Monitor: Automatic fan control: input 70°C target 89°C | On(48°C,70°C) On(44°C,63°C) On(42°C,60°C) | 4.1K 4.3K 0 0 fan_31% R22%
+Sun Aug  1 07:27:32 2021 daemon.err bosminer[1542]: Aug 01 07:27:32.257 INFO Monitor: Automatic fan control: input 70°C target 89°C | On(49°C,70°C) On(44°C,64°C) On(43°C,60°C) | 1.1K 1.9K 0 0 fan_1% R1%
+Sun Aug  1 07:27:37 2021 daemon.err bosminer[1542]: Aug 01 07:27:37.488 INFO Monitor: Automatic fan control: input 72°C target 89°C | On(51°C,72°C) On(47°C,67°C) On(46°C,63°C) | 840 1.5K 0 0 fan_1% R1%
+Sun Aug  1 07:27:42 2021 daemon.err bosminer[1542]: Aug 01 07:27:42.721 INFO Monitor: Automatic fan control: input 76°C target 89°C | On(54°C,76°C) On(50°C,69°C) On(48°C,66°C) | 720 1.5K 0 0 fan_1% R1%
+Sun Aug  1 07:27:47 2021 daemon.err bosminer[1542]: Aug 01 07:27:47.950 INFO Monitor: Automatic fan control: input 78°C target 89°C | On(56°C,78°C) On(53°C,72°C) On(51°C,69°C) | 780 1.5K 0 0 fan_1% R1%
+Thu Dec 24 07:23:37 2020 daemon.err bosminer-panic-wrapper[5634]: thread 'tokio-runtime-worker' panicked at 'BUG: hashchain instantiation failed: UIO device chain2-common: cannot find uio device
+Sun Aug  1 07:27:12 2021 daemon.err bosminer[1542]: Aug 01 07:27:12.332 INFO Voltage controller application started
+Sun Aug  1 07:27:17 2021 daemon.err bosminer[1542]: Aug 01 07:27:17.113 INFO chain 8: setting frequency 650 MHz on All (error 0 MHz)
+Sun Aug  1 07:27:17 2021 daemon.err bosminer[1542]: Aug 01 07:27:17.119 INFO Setting Hash chain baud rate @ requested: 1562500, actual: 1562500, divisor 0x01
+Sun Aug  1 07:27:17 2021 daemon.err bosminer[1542]: Aug 01 07:27:17.123 INFO Setting IP core baud rate @ requested: 1562500, actual: 1562500, divisor 0x07
+Sun Aug  1 07:27:17 2021 daemon.err bosminer[1542]: Aug 01 07:27:17.142 INFO Setting Hash chain baud rate @ requested: 1562500, actual: 1562500, divisor 0x01
+Sun Aug  1 07:27:17 2021 daemon.err bosminer[1542]: Aug 01 07:27:17.147 INFO Setting IP core baud rate @ requested: 1562500, actual: 1562500, divisor 0x07
+Sun Aug  1 07:27:17 2021 daemon.err bosminer[1542]: Aug 01 07:27:17.308 INFO Setting voltage to 8.7982025 (was: Some(9.402579))
+Sun Aug  1 07:27:17 2021 daemon.err bosminer[1542]: Aug 01 07:27:17.415 INFO Setting voltage to 8.7982025 (was: Some(9.402579))
+Sun Aug  1 07:27:17 2021 daemon.err bosminer[1542]: Aug 01 07:27:17.428 INFO Monitor watchdog temperature task started for hashchain 7
+Sun Aug  1 07:27:17 2021 daemon.err bosminer[1542]: Aug 01 07:27:17.439 INFO Setting voltage to 8.7982025 (was: Some(9.402579))
+Sun Aug  1 07:27:17 2021 daemon.err bosminer[1542]: Aug 01 07:27:17.534 INFO Monitor watchdog temperature task started for hashchain 6
+Sun Aug  1 07:27:17 2021 daemon.err bosminer[1542]: Aug 01 07:27:17.561 INFO Monitor watchdog temperature task started for hashchain 8
+Sun Aug  1 07:27:22 2021 daemon.err bosminer[1542]: Aug 01 07:27:22.012 INFO Monitor: Fans full speed: unknown temperature | Starting Starting Starting | 6.2K 6.2K 0 0 fan_100%
+Sun Aug  1 07:27:22 2021 daemon.err bosminer[1542]: Aug 01 07:27:22.536 INFO Address(152) manufacturer_id=0x55 device_id=0x0
+Sun Aug  1 07:27:22 2021 daemon.err bosminer[1542]: Aug 01 07:27:22.643 INFO Address(152) manufacturer_id=0x55 device_id=0x0
+Sun Aug  1 07:27:22 2021 daemon.err bosminer[1542]: Aug 01 07:27:22.669 INFO Address(152) manufacturer_id=0x55 device_id=0x0
+Sun Aug  1 17:30:17 2021 daemon.err bosminer[1540]: Aug 01 17:30:17.746 INFO Preheat: waiting for target temperature: 89, current temperature: Ok(58.75)
+Sun Aug  1 17:30:17 2021 daemon.err bosminer[1540]: Aug 01 17:30:17.746 INFO Preheat: waiting for target temperature: 89, current temperature: Ok(58.75)
+Sun Aug  1 17:30:17 2021 daemon.err bosminer[1540]: Aug 01 17:30:17.936 INFO Preheat: waiting for target temperature: 89, current temperature: Ok(58.75)
+Sun Aug  1 17:30:17 2021 daemon.err bosminer[1540]: Aug 01 17:30:17.936 INFO Preheat: waiting for target temperature: 89, current temperature: Ok(58.75)
+Sun Aug  1 17:30:17 2021 daemon.err bosminer[1540]: Aug 01 17:30:17.936 INFO Preheat: waiting for target temperature: 89, current temperature: Ok(58.75)
+Sun Aug  1 17:30:42 2021 daemon.err bosminer[1540]: Aug 01 17:30:42.341 INFO Raw config update: MinerConfig { model_version: 1, message_id: 0, config_id: 1627837532, send_timestamp: Some(0), telemetry_submit_period: Some(120), disable_autoupgrade: Some(false), pool_groups: [PoolGroup { name: "Default", pool_configs: [PoolConfiguration { url: "stratum+tcp://us-east.stratum.slushpool.com:3333", username: "b_s9j_1.2EWbMYciaSTAFkmU", password: Some(""), enabled: Some(true) }], quota: Some(Quota(1)) }], global_Sun Aug  1 17:30:42 2021 daemon.err bosminer[1540]: Aug 01 17:30:42.350 WARN Received configuration (BosMgmtState[000000006106d45c:18ae559502055da8]) is the same as current. Ignoring...
+Sun Aug  1 07:27:27 2021 daemon.err bosminer[1542]: Aug 01 07:27:27.024 INFO Monitor: Automatic fan control: input 70°C target 89°C | On(48°C,70°C) On(44°C,63°C) On(42°C,60°C) | 4.1K 4.3K 0 0 fan_31% R22%
+Sun Aug  1 07:27:32 2021 daemon.err bosminer[1542]: Aug 01 07:27:32.257 INFO Monitor: Automatic fan control: input 70°C target 89°C | On(49°C,70°C) On(44°C,64°C) On(43°C,60°C) | 1.1K 1.9K 0 0 fan_1% R1%
+Sun Aug  1 07:27:37 2021 daemon.err bosminer[1542]: Aug 01 07:27:37.488 INFO Monitor: Automatic fan control: input 72°C target 89°C | On(51°C,72°C) On(47°C,67°C) On(46°C,63°C) | 840 1.5K 0 0 fan_1% R1%
+Sun Aug  1 07:27:42 2021 daemon.err bosminer[1542]: Aug 01 07:27:42.721 INFO Monitor: Automatic fan control: input 76°C target 89°C | On(54°C,76°C) On(50°C,69°C) On(48°C,66°C) | 720 1.5K 0 0 fan_1% R1%
+Sun Aug  1 07:27:47 2021 daemon.err bosminer[1542]: Aug 01 07:27:47.950 INFO Monitor: Automatic fan control: input 78°C target 89°C | On(56°C,78°C) On(53°C,72°C) On(51°C,69°C) | 780 1.5K 0 0 fan_1% R1%
+Sun Aug  1 07:27:53 2021 daemon.err bosminer[1542]: Aug 01 07:27:53.181 INFO Monitor: Automatic fan control: input 82°C target 89°C | On(59°C,82°C) On(56°C,76°C) On(54°C,72°C) | 780 1.5K 0 0 fan_1% R1%
+Sun Aug  1 07:27:58 2021 daemon.err bosminer[1542]: Aug 01 07:27:58.416 INFO Monitor: Automatic fan control: input 85°C target 89°C | On(62°C,85°C) On(59°C,79°C) On(57°C,75°C) | 720 1.5K 0 0 fan_1% R1%
+Sun Aug  1 07:28:03 2021 daemon.err bosminer[1542]: Aug 01 07:28:03.648 INFO Monitor: Automatic fan control: input 88°C target 89°C | On(65°C,88°C) On(62°C,82°C) On(60°C,76°C) | 720 1.5K 0 0 fan_1% R1%
+Sun Aug  1 07:28:08 2021 daemon.err bosminer[1542]: Aug 01 07:28:08.877 INFO Monitor: Automatic fan control: input 90°C target 89°C | On(68°C,90°C) On(64°C,85°C) On(62°C,80°C) | 1.1K 2.0K 0 0 fan_8% t1%
+Sun Aug  1 07:28:14 2021 daemon.err bosminer[1542]: Aug 01 07:28:14.107 INFO Monitor: Automatic fan control: input 90°C target 89°C | On(70°C,90°C) On(67°C,88°C) On(65°C,81°C) | 1.3K 2.0K 0 0 fan_11% t1%
+Mon Aug  2 06:02:43 2021 daemon.err bosminer[1996]: Aug 02 06:02:43.819 WARN Failed to connect to btc.f2pool.com:25, user=moritezza.003 Connection timeout
+Mon Aug  2 06:02:44 2021 daemon.err bosminer[1996]: Aug 02 06:02:44.424 INFO Monitor: fan override activated | Off Off On(26°C,46°C 27°C,45°C 28°C,46°C 27°C,45°C) | 9.2K 9.2K 7.4K 7.4K fan_100%
+Mon Aug  2 06:02:45 2021 daemon.err bosminer[1996]: Aug 02 06:02:45.625 INFO Monitor: fan override activated | Starting Off On(28°C,44°C 27°C,46°C 26°C,45°C 27°C,45°C) | 9.2K 9.2K 7.4K 7.4K fan_100%
+Mon Aug  2 06:02:46 2021 daemon.err bosminer[1996]: Aug 02 06:02:46.119 INFO PWR/2: Voltage controller application started
+Mon Aug  2 06:02:46 2021 daemon.err bosminer[1996]: Aug 02 06:02:46.627 INFO Monitor: fan override activated | Starting Off On(28°C,44°C 27°C,46°C 26°C,45°C 27°C,45°C) | 9.2K 9.2K 7.4K 7.4K fan_100%
+Mon Aug  2 06:02:46 2021 daemon.err bosminer[1996]: Aug 02 06:02:46.875 INFO PWR/1: Enable voltage
+Mon Aug  2 06:02:47 2021 daemon.err bosminer[1996]: Aug 02 06:02:47.176 INFO PWR/2: Voltage controller firmware version 0x88
+Mon Aug  2 06:02:47 2021 daemon.err bosminer[1996]: Aug 02 06:02:47.181 INFO CHAIN/2: Initializing (fingerprint: fac59ae305fbbd3e, difficulty: 4)
+Mon Aug  2 06:02:47 2021 daemon.err bosminer[1996]: Aug 02 06:02:47.183 INFO CHAIN/2: Resetting hash board
+Mon Aug  2 06:02:47 2021 daemon.err bosminer[1996]: Aug 02 06:02:47.797 INFO Monitor: fan override activated | Starting Off On(27°C,45°C 27°C,46°C 25°C,49°C 27°C,45°C) | 9.2K 9.2K 7.5K 7.5K fan_100%
+Mon Aug  2 06:02:48 2021 daemon.err bosminer[1996]: Aug 02 06:02:48.982 INFO Monitor: fan override activated | Starting Starting On(28°C,46°C 27°C,46°C 27°C,46°C 27°C,45°C) | 9.2K 9.2K 7.4K 7.4K fan_100%
+Mon Aug  2 06:02:49 2021 daemon.err bosminer[1996]: Aug 02 06:02:49.017 INFO CHAIN/1: Setting IP core baud rate @ requested: 115740, actual: 115740, divisor 0x6b
+Mon Aug  2 06:02:49 2021 daemon.err bosminer[1996]: Aug 02 06:02:49.983 INFO Monitor: fan override activated | Starting Starting On(28°C,46°C 27°C,46°C 27°C,46°C 27°C,45°C) | 9.2K 9.2K 7.4K 7.4K fan_100%
+Mon Aug  2 06:02:50 2021 daemon.err bosminer[1996]: Aug 02 06:02:50.043 INFO CHAIN/1: Starting chip enumeration
+Mon Aug  2 06:02:50 2021 daemon.err bosminer[1996]: Aug 02 06:02:50.144 ERRO CHAIN/1: Init failed: no chips detected on the current chain
+Mon Aug  2 06:02:50 2021 daemon.err bosminer[1996]: Aug 02 06:02:50.145 INFO PWR/1: Disable voltage
+Mon Aug  2 06:02:50 2021 daemon.err bosminer[1996]: Aug 02 06:02:50.430 INFO PWR/2: Enable voltage
+Mon Aug  2 06:02:50 2021 daemon.err bosminer[1996]: Aug 02 06:02:50.984 INFO Monitor: fan override activated | Starting Starting On(28°C,46°C 27°C,46°C 27°C,46°C 27°C,45°C) | 9.2K 9.2K 7.4K 7.4K fan_100%
+Mon Aug  2 06:02:52 2021 daemon.err bosminer[1996]: Aug 02 06:02:52.170 INFO Monitor: fan override activated | Starting Starting On(26°C,45°C 27°C,46°C 24°C,45°C 27°C,44°C) | 9.2K 9.2K 7.4K 7.4K fan_100%
+Mon Aug  2 06:02:52 2021 daemon.err bosminer[1996]: Aug 02 06:02:52.190 ERRO CHAIN/1: Start failed: NoChipsDetected
+Mon Aug  2 06:02:52 2021 daemon.err bosminer[1996]: Aug 02 06:02:52.601 INFO CHAIN/2: Setting IP core baud rate @ requested: 115740, actual: 115740, divisor 0x6b
+Mon Aug  2 06:02:53 2021 daemon.err bosminer[1996]: Aug 02 06:02:53.192 INFO Monitor: fan override activated | Off Starting On(26°C,45°C 27°C,46°C 24°C,45°C 27°C,44°C) | 9.2K 9.2K 7.5K 7.5K fan_100%
+Mon Aug  2 06:02:53 2021 daemon.err bosminer[1996]: Aug 02 06:02:53.626 INFO CHAIN/2: Starting chip enumeration
+Mon Aug  2 06:02:53 2021 daemon.err bosminer[1996]: Aug 02 06:02:53.728 ERRO CHAIN/2: Init failed: no chips detected on the current chain
+Mon Aug  2 06:02:53 2021 daemon.err bosminer[1996]: Aug 02 06:02:53.728 INFO PWR/2: Disable voltage
+Mon Aug  2 06:02:53 2021 daemon.err bosminer[1996]: Aug 02 06:02:53.728 WARN AsyncI2c reply send failed - remote side may have ended
+Mon Aug  2 06:02:54 2021 daemon.err bosminer[1996]: Aug 02 06:02:54.355 INFO Monitor: fan override activated | Off Starting On(25°C,43°C 27°C,46°C 27°C,45°C 27°C,45°C) | 9.2K 9.2K 7.5K 7.5K fan_100%
+Mon Aug  2 06:02:55 2021 daemon.err bosminer[1996]: Aug 02 06:02:55.356 INFO Monitor: fan override activated | Off Starting On(25°C,43°C 27°C,46°C 27°C,45°C 27°C,45°C) | 9.2K 9.2K 7.5K 7.5K fan_100%
+Mon Aug  2 06:02:55 2021 daemon.err bosminer[1996]: Aug 02 06:02:55.831 ERRO CHAIN/2: Start failed: NoChipsDetected
+Thu Jul 22 19:06:41 2021 daemon.err bosminer[22013]: Jul 22 19:06:41.765 INFO Monitor: Automatic fan control: input 76°C target 75°C | On(40°C,70°C 53°C,76°C 35°C,67°C 49°C,71°C) Off On(36°C,67°C 48°C,67°C 39°C,68°C 53°C,74°C) | 5.6K 5.6K 5.6K 5.8K fan_96% t35%
+Thu Jul 22 19:06:42 2021 daemon.err bosminer[22013]: Jul 22 19:06:42.869 WARN TX fifo on hashboard 1 is empty
+Thu Jul 22 19:06:42 2021 authpriv.notice dropbear[22289]: Auth succeeded with blank password for 'root' from 10.0.0.251:51055
+Thu Jul 22 19:06:42 2021 daemon.err bosminer[22013]: Jul 22 19:06:42.942 WARN TX fifo on hashboard 1 is empty
+Thu Jul 22 19:06:43 2021 daemon.err bosminer[22013]: Jul 22 19:06:43.485 INFO Monitor: Automatic fan control: input 75°C target 75°C | On(41°C,69°C 52°C,75°C 35°C,67°C 49°C,71°C) Off On(35°C,67°C 48°C,67°C 38°C,67°C 52°C,75°C) | 5.7K 5.6K 5.6K 5.8K fan_91% t35%
+Thu Jul 22 19:06:45 2021 daemon.err bosminer[22013]: Jul 22 19:06:45.207 INFO Monitor: Automatic fan control: input 76°C target 75°C | On(40°C,69°C 53°C,76°C 34°C,66°C 49°C,71°C) Off On(36°C,68°C 48°C,67°C 38°C,67°C 53°C,74°C) | 5.6K 5.7K 5.6K 5.8K fan_97% t35%
+Thu Jul 22 19:06:46 2021 daemon.err bosminer[22013]: Jul 22 19:06:46.928 INFO Monitor: Automatic fan control: input 75°C target 75°C | On(40°C,70°C 53°C,75°C 35°C,66°C 49°C,71°C) Off On(36°C,68°C 48°C,67°C 38°C,68°C 52°C,74°C) | 5.8K 5.8K 5.6K 5.8K fan_92% t35%
+Thu Jul 22 19:06:48 2021 daemon.err bosminer[22013]: Jul 22 19:06:48.655 INFO Monitor: Automatic fan control: input 75°C target 75°C | On(41°C,70°C 52°C,75°C 34°C,66°C 49°C,71°C) Off On(36°C,67°C 47°C,66°C 38°C,67°C 53°C,74°C) | 5.8K 5.7K 5.6K 5.8K fan_92% t35%
+Thu Jul 22 19:06:50 2021 daemon.err bosminer[22013]: Jul 22 19:06:50.376 INFO Monitor: Automatic fan control: input 75°C target 75°C | On(40°C,70°C 53°C,75°C 35°C,66°C 48°C,70°C) Off On(36°C,68°C 48°C,67°C 39°C,67°C 53°C,75°C) | 5.7K 5.6K 5.6K 5.8K fan_92% t35%
+Thu Jul 22 19:06:52 2021 daemon.err bosminer[22013]: Jul 22 19:06:52.102 INFO Monitor: Automatic fan control: input 75°C target 75°C | On(40°C,69°C 53°C,75°C 34°C,66°C 48°C,71°C) Off On(36°C,66°C 47°C,67°C 38°C,67°C 53°C,74°C) | 5.7K 5.6K 5.6K 5.8K fan_92% t35%
+Thu Jul 22 19:06:53 2021 daemon.err bosminer[22013]: Jul 22 19:06:53.829 INFO Monitor: Automatic fan control: input 75°C target 75°C | On(40°C,70°C 53°C,75°C 35°C,66°C 48°C,71°C) Off On(36°C,67°C 48°C,67°C 38°C,66°C 52°C,74°C) | 5.7K 5.6K 5.6K 5.8K fan_92% t35%
+Thu Jul 22 19:06:55 2021 daemon.err bosminer[22013]: Jul 22 19:06:55.304 WARN TX fifo on hashboard 3 is empty
