@@ -17,4 +17,4 @@
 4. With the opened VSCode press Ctrl+,
 5. Click on the Extension
 6. Click in **Edit in Settings.json**
-7. Copy and Paste contents of file "settings.json "in the repository at the end of the settings.json before the last `}`
+7. Copy and Paste contents of file the "settings.json "in the repository at the end of the settings.json before the last `}`
