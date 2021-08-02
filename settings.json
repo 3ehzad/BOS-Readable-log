@@ -1,54 +1,129 @@
-// paste the code below after the last },
+//{
+    // Start : Copy and paste the section below
 
     "logFileHighlighter.customPatterns": [
-    {
-        "pattern": "Raw config",
-        "background": "#ff00ea",
-        "foreground": "#ffffff"
-    },
-    {
-        "pattern": "Monitor: Automatic fan control:",
-        "foreground": "#999"
-    },
-     {
-        "pattern": "Monitor: fan override activated | On",
-        "foreground": "#999"
-    },
-    {
-        "pattern": " WARN ",
-        "background": "#ff7b00",
-        "foreground": "#ffffff"
-    },
-    {
-        "pattern": "Failed to connect to ",
-        "background": "#ffac3f",
-        "foreground": "#000000"
-    },
-    {
-        "pattern": "TX fifo on hashboard",
-        "background": "#ffa600",
-        "foreground": "#fff"
-    },
-    {
-        "pattern": " ERRO ",
-        "background": "#ff0000",
-        "foreground": "#fff"
-    },
-    {
-        "pattern": "Hashchain refused to start",
-        "background": "#ff9e9e",
-        "foreground": "#ff0000"
-    },
-    {
-        "pattern": "CHAIN/\\w+: Init failed: no chips detected on the current chain",
-        "background": "#ff9e9e",
-        "foreground": "#bb0000"
-    },
-    {
-        "pattern": "CHAIN/\\w+: Start failed: NoChipsDetected",
-        "background": "#ff9e9e",
-        "foreground": "#bb0000"
-    }
-]
-
-// }
+        // Main flags
+        {
+            "pattern": " ERRO ",
+            "background": "#ff0000",
+            "foreground": "#ffffff"
+        },
+        {
+            "pattern": " WARN ",
+            "background": "#ff9100",
+            "foreground": "#ffffff"
+        },
+        {
+            "pattern": " INFO ",
+            "foreground": "#8cff57"
+        },
+        // Manager flags
+        {
+            "pattern": "Raw config update: MinerConfig",
+            "background": "#c900b8",
+            "foreground": "#ffffff"
+        },
+        {
+            // TODO: Needs to fix regex pattern
+            "pattern": "Received configuration (BosMgmtState[\\w+]) is the same as current.",
+            "background": "#c900b8",
+            "foreground": "#ffffff"
+        },
+        // ERRO flags
+        {
+            "pattern": "Monitor task declared miner shutdown: Shutdown: temperature \\w+°C is above DANGEROUS",
+            "background": "#ff9e9e",
+            "foreground": "#bb0000"
+        },
+        {
+            "pattern": "CHAIN/\\w+: Init failed: no chips detected on the current chain",
+            "background": "#ff9e9e",
+            "foreground": "#bb0000"
+        },
+        {
+            "pattern": "CHAIN/\\w+: Start failed: NoChipsDetected",
+            "background": "#ff9e9e",
+            "foreground": "#bb0000"
+        },
+        {
+            "pattern": "CHAIN/\\w+: Init failed: not enough chips on chain",
+            "background": "#ff9e9e",
+            "foreground": "#bb0000"
+        },
+        {
+            "pattern": "CHAIN/\\w+: Start failed: TooFewChips\\(\\w+, \\w+\\)",
+            "background": "#ff9e9e",
+            "foreground": "#bb0000"
+        },
+        {
+            "pattern": "Sensor hb\\w+.\\w+ probing failed: Hashboard \\w+: sensor error",
+            "background": "#ff9e9e",
+            "foreground": "#bb0000"
+        },
+        {
+            "pattern": "CHAIN/\\w+: Init failed: Hashchip: number of responses \\w+ of GetStatusCmd\\(reg=\\w+\\) doesn't match chip count \\w+",
+            "background": "#ff9e9e",
+            "foreground": "#bb0000"
+        },
+        {
+            "pattern": "CHAIN/\\w+: Start failed: Power\\(UnexpectedVoltage\\(Voltage\\(\\w+.\\w+\\), Voltage\\(\\w+.\\w+\\)\\)\\)",
+            "background": "#ff9e9e",
+            "foreground": "#bb0000"
+        },
+        {
+            "pattern": "CHAIN/\\w+: Init failed: expected voltage \\w+.\\w+ V but measured \\w+.\\w+ V",
+            "background": "#ff9e9e",
+            "foreground": "#bb0000"
+        },
+        {
+            "pattern": "Sensor hb\\w+.\\w+: read failed: I2C error: general error I2C controller keeps reading wrong address/register",
+            "background": "#ff9e9e",
+            "foreground": "#bb0000"
+        },
+        {
+            "pattern": "Sensor hb\\w+.\\w+: read failed: I2C error: general error Hashchip: no response for GetStatusCmd\\(reg=\\w+\\) from chip One\\(\\w+\\)",
+            "background": "#ff9e9e",
+            "foreground": "#bb0000"
+        },
+        // WARN flags
+        {
+            "pattern": "TX fifo on hashboard \\w+ is empty",
+            "background": "#ffb67a",
+            "foreground": "#aa3e00"
+        },
+        {
+            "pattern": "Failed to connect to",
+            "background": "#ffb67a",
+            "foreground": "#aa3e00"
+        },
+        {
+            "pattern": "Hashchip I2C read transaction error! Retrying...",
+            "background": "#ffb67a",
+            "foreground": "#aa3e00"
+        },
+        {
+            "pattern": "AsyncI2c reply send failed - remote side may have ended",
+            "background": "#ffb67a",
+            "foreground": "#aa3e00"
+        },
+        // INFO flags
+        {
+            "pattern": "Preheat: waiting for target temperature: \\w+",
+            "foreground": "#6db872"
+        },
+        // Unknown flags
+        {
+            "pattern": "bosminer-panic-wrapper\\[\\w+]: thread 'tokio-runtime-worker' panicked at 'BUG: hashchain instantiation failed: UIO device chain\\w+-common: cannot find uio device",
+            "background": "#ffd000",
+            "foreground": "#584b00"
+        },
+        {
+            "pattern": "Error from extension channel message handling: Missing bos tunnel handler",
+            "background": "#ffd000",
+            "foreground": "#584b00"
+        }
+        
+        
+    ]
+// End: copy & past
+//}
